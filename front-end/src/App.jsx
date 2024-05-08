@@ -1,14 +1,12 @@
 import './App.css'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+
+import Home from "./pages/Home" // this way you can import any components
 function App() {
 
   return (
     <div>
-          <div class="container py-4 px-3 mx-auto">
-          <h1>Hello, Bootstrap and Vite!</h1>
-          <button className="btn btn-primary">Primary button</button>
-          
-        </div>
+      <Home/>
     </div>
   )
 }
